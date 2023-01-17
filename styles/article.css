@@ -27,4 +27,6 @@ article img {
     flex: 1;
     border-radius: 10px;
     max-width: 50%;
+
+    object-fit: cover;
 }
