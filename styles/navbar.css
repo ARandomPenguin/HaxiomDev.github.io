@@ -24,6 +24,8 @@ nav img {
 nav a {
     text-decoration: none;
     color: inherit;
+
+    font-size: 1.2em;
 }
 
 nav a:nth-child(2) {
