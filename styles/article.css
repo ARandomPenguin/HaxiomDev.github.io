@@ -1,0 +1,30 @@
+article {
+    margin-top: 2em;
+    width: clamp(300px, 70%, 1000px);
+}
+
+#title {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#title-description {
+    flex: 1;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+article img {
+    flex: 1;
+    border-radius: 10px;
+    max-width: 50%;
+}
