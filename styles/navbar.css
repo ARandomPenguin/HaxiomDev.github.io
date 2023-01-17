@@ -1,0 +1,35 @@
+nav {
+    width: clamp(300px, 70%, 800%);
+
+    margin-top: 0.5rem;
+    border-radius: 10px;
+
+    background-color: var(--navbar-color);
+
+    display: flex;
+    align-items: center;
+
+    column-gap: 1em;
+
+    overflow: hidden;
+
+    padding: 10px;
+}
+
+nav img {
+    min-height: 100%;
+    border-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:nth-child(2) {
+    margin-left: auto;
+}
+
+nav a:last-child {
+    margin-right: 1em;
+}
